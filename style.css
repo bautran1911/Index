@@ -249,6 +249,7 @@ line-height: 1.16;
     letter-spacing: 0.1rem;
 }
 .s-header a{
+    color: #fff;
     line-height: 0.9rem;
     border: 1px solid #fff;
     outline: none;
