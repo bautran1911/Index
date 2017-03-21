@@ -62,12 +62,28 @@ a{
 }
 #menu-rps a{
     text-decoration: none;
+    color: inherit;
+}
+#menu-rps a:hover{
+    text-decoration: underline;
+    color: inherit;
+}
+#forum{
+    overflow: hidden;
+    border: 1px solid #B8976A;
+    padding: 0.4rem 0.8rem ;
+    position: relative;
+        display: block;
+    line-height: 1.7;
+    position: relative;
+    bottom: 0.63rem;
 }
 #menu-rps ul{
     display: flex;
     justify-content: space-around;
     position: relative;
     top: 1rem;
+    color: #fff;
 }
 .logo{
         margin-top: -2.3rem;
