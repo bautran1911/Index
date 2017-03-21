@@ -62,7 +62,7 @@ a{
 }
 #menu-rps a{
     text-decoration: none;
-    color: inherit;
+    color: inherit;    
 }
 #menu-rps a:hover{
     text-decoration: underline;
@@ -73,17 +73,30 @@ a{
     border: 1px solid #B8976A;
     padding: 0.4rem 0.8rem ;
     position: relative;
-        display: block;
+    display: block;
     line-height: 1.7;
     position: relative;
     bottom: 0.63rem;
+}
+#menu-rps a[title="Forum"]:hover{
+        background: #fff;
+    color: #B8976A;
+    text-decoration: none;
+
 }
 #menu-rps ul{
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 1rem;
+    top: 2.5rem;
     color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
 }
 .logo{
         margin-top: -2.3rem;
