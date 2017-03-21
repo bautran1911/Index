@@ -100,7 +100,7 @@ a{
 }
 .search{
     font-size: 1.5rem;
-        bottom: 0.63rem;
+    bottom: 0.63rem;
     position: relative;
 }
 .logo{
@@ -633,6 +633,8 @@ padding-left: 1.25rem;
 .txtden{
         text-decoration: none;
 }
+
+/*       Tablet       */
      
        @media screen and (min-width:600px){
    #menu-header{
@@ -644,5 +646,46 @@ padding-left: 1.25rem;
     position: relative;
     overflow: visible;
     
+}
+.social-txt{
+    width: 50%;
+    float: left;
+    clear: none;
+}
+.social-pt{
+    width: 50%;
+    float: left;
+    clear: none;
+    white-space: nowrap;
+    font-size: 0;
+}
+.social-pt img{
+        font-family: 'object-fit: cover;';
+        height: 14rem;
+            width: 33.4%;
+            border: 0;
+    object-fit: cover;
+        max-width: 100%;
+    vertical-align: top;
+}
+#social-fr{
+    float: right;
+    width: 75%;
+}
+#social-h1{
+    padding-top: 1rem;
+    font-size: 2.8rem;
+}
+#social-h1::after{
+        content: ' ';
+    display: block;
+    margin-top: 1.5rem;
+    border-top: 1px solid #fff;
+    width: 3.125rem;
+}
+.social-sec{
+        margin-left: 4rem;
+    margin-top: -0.5rem;
+    text-align: left;
 }
 }
