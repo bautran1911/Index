@@ -135,6 +135,9 @@ max-width: 125rem;
     margin-top: -8rem;
     transform: translateZ(0);
 }
+.scroll-down{
+    display: none;
+}
 .slides{
    
     
@@ -648,6 +651,37 @@ padding-left: 1.25rem;
             position: relative;
             overflow: visible;
             
+        }
+
+        .scroll-down{
+            display: block;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            color: #fff;
+            font-family: "Proxima Nova", Arial, sans-serif;
+            letter-spacing: 1.5px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            text-align: center;            
+        }
+
+        .link-scroll-down{
+            color: inherit;
+            padding: 1rem 1rem 2rem;
+            text-decoration: none;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .link-scroll-down::after{
+            content: ' ';
+            display: block;
+            position: absolute;
+            border-left: 2px solid #fff;
+            height: 1.5rem;
+            left: 50%;
+            bottom: 0;
         }
 
         .social-txt{
