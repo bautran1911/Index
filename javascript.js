@@ -6,6 +6,6 @@ function toggleMenu(x) {
  menu[0].classList.toggle("dn");
 }
 
-function toggleSearch(y){
+function toggleSearch(){
   search[0].classList.toggle("dn");
 }
